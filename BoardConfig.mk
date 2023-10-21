@@ -47,5 +47,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 26843545600
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 
+# Vendor Security Patch
+VENDOR_SECURITY_PATCH := 2016-03-01
+
 # Inherit from proprietary files
 include vendor/oppo/r7sf/BoardConfigVendor.mk
