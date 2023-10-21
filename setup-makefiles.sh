@@ -11,7 +11,7 @@ set -e
 export BITS=64
 export DEVICE=r7sf
 export DEVICE_COMMON=msm8939-common
-export VENDOR_DEVICE=oneplus
+export VENDOR_DEVICE=oppo
 export VENDOR_COMMON=oppo
 
 "./../../${VENDOR_COMMON}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
