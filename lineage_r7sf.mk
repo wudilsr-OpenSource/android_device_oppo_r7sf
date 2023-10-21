@@ -25,6 +25,9 @@ $(call inherit-product, device/oppo/r7sf/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Shipping API level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk)
+
 PRODUCT_NAME := lineage_r7sf
 PRODUCT_DEVICE := r7sf
 PRODUCT_BRAND := OPPO
