@@ -14,3 +14,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_r7sf.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_r7sf-user \
+    lineage_r7sf-userdebug \
+    lineage_r7sf-eng
