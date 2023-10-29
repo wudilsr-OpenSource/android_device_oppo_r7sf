@@ -27,8 +27,7 @@ PRODUCT_COPY_FILES += \
 # ACDB Loader calibration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/aanc_tuning_mixer.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/aanc_tuning_mixer.txt \
-    $(LOCAL_PATH)/audio/acdbdata/Bluetooth_ca
-    l.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/15022/Bluetooth_cal.acdb \
+    $(LOCAL_PATH)/audio/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/15022/Bluetooth_cal.acdb \
     $(LOCAL_PATH)/audio/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/15022/General_cal.acdb \
     $(LOCAL_PATH)/audio/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/15022/Global_cal.acdb \
     $(LOCAL_PATH)/audio/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/15022/Handset_cal.acdb \
