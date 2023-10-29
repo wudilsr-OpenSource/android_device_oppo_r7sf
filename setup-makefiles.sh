@@ -9,7 +9,7 @@
 set -e
 
 export DEVICE=r7sf
-export DEVICE_COMMON=msm8939-common
+export DEVICE_COMMON=msm8916-64-common
 export VENDOR=oppo
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
