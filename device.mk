@@ -74,6 +74,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.default_network=9,9 \
     persist.radio.multisim.config=dsds
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
