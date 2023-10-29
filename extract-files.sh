@@ -15,10 +15,8 @@ fi
 
 set -e
 
-export BITS=64
 export DEVICE=r7sf
-export DEVICE_COMMON=msm8939-common
-export VENDOR_DEVICE=oppo
-export VENDOR_COMMON=oppo
+export DEVICE_COMMON=msm8916-64-common
+export VENDOR=oppo
 
-"./../../${VENDOR_COMMON}/${DEVICE_COMMON}/extract-files.sh" "$@"
+"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

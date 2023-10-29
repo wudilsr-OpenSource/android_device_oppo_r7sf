@@ -1,3 +1,8 @@
+#
+# Vendor Blobs for r7sf - ODM blobs from msm8916_64 6.0.1
+#
+
+
 # Audio - from stock, eq converted
 etc/tfa9890/settings/TFA9890_N1B12_N1C3_v2.config:vendor/firmware/left.tfa9890.config
 etc/tfa9890/settings/15022/TFA9890_1111.speaker:vendor/firmware/left.tfa9890.speaker
